@@ -4,7 +4,24 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+/* globals.css */
 
+@layer utilities {
+  .text-stroke-sm {
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .text-stroke-white {
+    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.2);
+  }
+
+  /* This creates a glow that makes text readable on ANY background */
+  .premium-readable {
+    text-shadow: 
+      0px 0px 1px rgba(0,0,0,0.3),
+      0px 0px 10px rgba(0,0,0,0.1);
+  }
+}
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
