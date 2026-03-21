@@ -6,8 +6,6 @@ import Hero from "@/Components/Hero";
 import Impact from "@/Components/Impact";
 import Projects from "@/Components/Projects";
 import Skills from "@/Components/Skills";
-import MLVisual from '@/Components/MLVisual'
-import Profiles from "@/Components/Profiles";
 import Contact from "@/Components/Contact";
 import WebsitesSection from "@/Components/WebsitesSection";
 import MarketingSection from "@/Components/MarketingSection";
