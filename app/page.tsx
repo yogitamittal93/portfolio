@@ -10,12 +10,14 @@ import Contact from "@/Components/Contact";
 import WebsitesSection from "@/Components/WebsitesSection";
 import MarketingSection from "@/Components/MarketingSection";
 import MLSection from "@/Components/MLsection";
+import VideoOverlay from '@/Components/Intro';
 //import Opportunity from '@/Components/Opportunity';
 
 export default function Page() {
   return (
     <main>
       <Header />
+      <VideoOverlay />
        <AvatarPath />
       <Hero />
       <Impact />

@@ -6,11 +6,11 @@ import { motion } from "framer-motion";
 const skills = [
   {
     category: "Core Engineering",
-    items: ["Javascript", "React", "Next.js", "Node.js", "PHP", "APIs", "Python", "Docker", "Git"],
+    items: ["Javascript", "React", "Next.js", "Node.js", "PHP", "APIs", "Python", 'Nest.js', "Docker", "Git", "CI/CD"],
   },
   {
     category: "Systems & Data",
-    items: ["Large Datasets", "Performance", "PostgreSQL", "MongoDB", "MySQL", "Numpy", "Pandas", "Scikit-Learn", "Matplotlib"],
+    items: ["Large Datasets", "Performance", "PostgreSQL", "MongoDB", "MySQL", "Numpy", "Pandas", "Scikit-Learn", "Matplotlib", "Pytorch", "TensorFlow", "HuggingFace"],
   },
   {
     category: "Marketing & Automation",

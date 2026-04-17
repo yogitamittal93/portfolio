@@ -37,7 +37,7 @@ const websites = [
     highlight: true,
     desc: "React Native UI Contributor",
     details: [
-      "Developed interactive mobile UI components using React Native and TypeScript.",
+      "Developed interactive mobile UI components using React Native.",
       "Collaborated with cross-functional teams to translate gardening logic into intuitive mobile experiences.",
       "Focused on high-performance component rendering and cross-platform UI consistency."
     ]

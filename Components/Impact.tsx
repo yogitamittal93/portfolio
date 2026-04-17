@@ -22,7 +22,7 @@ const impactStories = [
     title: "The 95% Efficiency Breakthrough", 
     subtitle: "Automated Data Architecture", 
     tag: "Innovation", 
-    description: "I identified a bottleneck where catalog pricing required massive manual configuration. I engineered a pattern-replacement system using advanced text transformation and PHP logic.", 
+    description: "I identified a bottleneck where catalog pricing required massive manual configuration. I engineered a pattern-replacement system using advanced text transformation and MS-word (No big tech, just simple solutions).", 
     details: "I independently architected and tested this system before rollout. It eliminated human error across tens of thousands of SKUs and reduced manual data entry time by 95%.", 
     metric: "95% Efficiency" 
   },
@@ -36,7 +36,7 @@ const impactStories = [
   },
   { 
     title: "Enterprise Core Web Vitals", 
-    subtitle: "Lighthouse Optimization: 78 → 98", 
+    subtitle: "Lighthouse Optimization: 48%", 
     tag: "Performance", 
     description: "I diagnosed performance lag caused by heavy third-party widget dependencies. I replaced bloated implementations with lean, custom-engineered solutions.", 
     details: "By optimizing the frontend loading strategy and implementing structured metadata, I improved SEO health and user retention under strict production deadlines.", 
