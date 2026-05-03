@@ -11,7 +11,7 @@ export default function Hero() {
     >
       {/* Background Decorative Element - Subtle texture or large letter */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[25vw] font-serif italic text-neutral-100/50 select-none pointer-events-none">
-        Mittal
+        Singla
       </div>
 
       <div className="relative z-10 max-w-7xl w-full grid md:grid-cols-12 gap-12 items-center">
@@ -72,7 +72,7 @@ export default function Hero() {
             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-sm bg-neutral-100 grayscale hover:grayscale-0 transition-all duration-1000 shadow-2xl shadow-neutral-200">
               <Image
                 src="/yogita3.png"
-                alt="Yogita Mittal"
+                alt="Yogita Singla"
                 fill
                 priority
                 className="object-cover transition-transform duration-[2s] hover:scale-110"

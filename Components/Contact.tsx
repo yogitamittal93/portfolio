@@ -47,7 +47,7 @@ export default function Connect() {
               <h3 className="text-xs uppercase tracking-widest text-neutral-400 mb-8 font-bold">Work & Proof</h3>
               <div className="grid sm:grid-cols-2 gap-4">
                 <a
-                  href="https://github.com/Yogita-Mittal"
+                  href="https://github.com/yogitamittal93"
                   target="_blank"
                   className="group flex justify-between items-center p-6 bg-white border border-neutral-200 rounded-sm hover:border-black transition-all duration-500"
                 >
@@ -62,7 +62,7 @@ export default function Connect() {
                 </a>
 
                 <a
-                  href="https://www.hackerrank.com/yogita_mittal"
+                  href="https://www.hackerrank.com/yogitasingla93/"
                   target="_blank"
                   className="group flex justify-between items-center p-6 bg-white border border-neutral-200 rounded-sm hover:border-black transition-all duration-500"
                 >
@@ -110,22 +110,22 @@ export default function Connect() {
                 <h3 className="text-xs uppercase tracking-widest text-neutral-500 mb-12 font-bold">Direct Contact</h3>
                 <div className="space-y-8">
                   <a 
-                    href="mailto:yogita.mittal@email.com" 
+                    href="mailto:yogitamittal.tech@gmail.com" 
                     className="block group"
                   >
                     <p className="text-xs text-neutral-500 uppercase mb-2">Email</p>
                     <p className="text-2xl font-light group-hover:underline underline-offset-8 decoration-1 transition-all">
-                      yogita.mittal@email.com
+                      yogitamittal.tech@gmail.com
                     </p>
                   </a>
                   <a 
-                    href="https://linkedin.com/in/yogita-mittal" 
+                    href="https://www.linkedin.com/in/yogitamittaltech/" 
                     target="_blank"
                     className="block group"
                   >
                     <p className="text-xs text-neutral-500 uppercase mb-2">LinkedIn</p>
                     <p className="text-2xl font-light group-hover:underline underline-offset-8 decoration-1 transition-all">
-                      in/yogita-mittal
+                      in/yogitamittaltech
                     </p>
                   </a>
                 </div>
@@ -150,7 +150,7 @@ export default function Connect() {
         {/* Footer Credits */}
         <footer className="mt-32 pt-8 border-t border-neutral-200 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-[10px] text-neutral-400 uppercase tracking-widest">
-            &copy; 2026 Yogita Mittal — Engineering & Data
+            &copy; 2026 Yogita Singla — Engineering & Data
           </p>
           <p className="text-[10px] text-neutral-400 uppercase tracking-widest">
             Built with Next.js & Framer Motion

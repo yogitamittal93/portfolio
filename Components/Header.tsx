@@ -29,7 +29,7 @@ export default function Header() {
               className="text-sm font-bold tracking-[0.2em] px-3 uppercase text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
               style={{ WebkitTextStroke: "0.5px rgba(0,0,0,0.1)" }}
             >
-              Yogita <span className="font-serif italic font-light lowercase tracking-normal text-neutral-300 group-hover:text-white transition-colors">Mittal</span>
+              Yogita <span className="font-serif italic font-light lowercase tracking-normal text-neutral-300 group-hover:text-white transition-colors">Singla</span>
             </h1>
           </a>
         </div>

@@ -1,6 +1,6 @@
 import '@/Styles/globals.css';
 export const metadata = {
-  title: "Yogita Mittal | Full Stack Engineer",
+  title: "Yogita Singla | Full Stack Engineer",
   description: "Interactive developer portfolio",
 };
 
