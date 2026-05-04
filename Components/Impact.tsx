@@ -179,7 +179,7 @@ export default function EngineeringImpact() {
                   <p className="text-neutral-400 font-serif italic mt-1 text-lg">{story.subtitle}</p>
                 </div>
                 <div className="text-right">
-                  <span className="text-6xl font-light text-neutral-100 tracking-tighter">{story.metric.split(' ')[0]}</span>
+                  <span className="text-6xl font-light text-amber-400 tracking-tighter">{story.metric.split(' ')[0]}</span>
                   <p className="text-[10px] text-neutral-400 uppercase tracking-widest">{story.metric.split(' ').slice(1).join(' ')}</p>
                 </div>
               </div>
