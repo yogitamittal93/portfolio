@@ -1,10 +1,18 @@
 @import "tailwindcss";
 
 :root {
+  /* BACKGROUND: Pure White (Sattvic/Sun energy) */
   --background: #ffffff;
   --foreground: #171717;
+  
+  /* SILVER (Venus/Career): For Borders, Dividers, and Secondary Text */
+  --silver-accent: linear-gradient(135deg, #C0C0C0 0%, #E8E8E8 50%, #B0B0B0 100%);
+  --silver-solid: #94a3b8; /* Tailwind Slate-400 equivalent for clean text */
+  
+  /* COPPER (Sun/Mars): For "Impact" Numbers and CTA Highlights */
+  --copper-glow: #b45309; /* Deep Amber/Copper for high-contrast impact */
+  --copper-bright: #f59e0b; /* Golden Copper for buttons/hover */
 }
-/* globals.css */
 
 @layer utilities {
   .text-stroke-sm {
@@ -15,24 +23,37 @@
     -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.2);
   }
 
-  /* This creates a glow that makes text readable on ANY background */
+  /* UPGRADED: Added a subtle metallic "Silver" glow to readable text */
   .premium-readable {
     text-shadow: 
       0px 0px 1px rgba(0,0,0,0.3),
-      0px 0px 10px rgba(0,0,0,0.1);
+      0px 0px 8px rgba(148, 163, 184, 0.2); /* Soft silver glow */
+  }
+
+  /* NEW: Success-Driven Gradient for your Impact Numbers */
+  .text-impact-copper {
+    background: linear-gradient(to bottom right, #b45309, #d97706);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
   }
 }
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-silver: var(--silver-solid);
+  --color-copper: var(--copper-glow);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    /* SATURN BLACK: Using a Deep Charcoal (#0a0a0a) to avoid the "Rahu Void" */
     --background: #0a0a0a;
     --foreground: #ededed;
+    --silver-solid: #cbd5e1; /* Brighter silver for dark mode visibility */
   }
 }
 
@@ -40,4 +61,5 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  transition: background 0.3s ease; /* Smooth transition for the "Lighter" feeling */
 }

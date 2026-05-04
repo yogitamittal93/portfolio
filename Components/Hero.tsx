@@ -48,7 +48,7 @@ export default function Hero() {
               </motion.a>
               
               <a
-                href="#contact"
+                href="#connect"
                 className="group flex items-center gap-2 text-neutral-500 uppercase tracking-widest font-semibold"
               >
                 Contact

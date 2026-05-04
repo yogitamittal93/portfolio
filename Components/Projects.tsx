@@ -31,7 +31,7 @@ const engineeringProjects = [
 
 export default function ProjectsSection() {
   return (
-    <section className="py-32 bg-white selection:bg-black selection:text-white" id="projects">
+    <section className="py-32 bg-white selection:bg-black selection:text-silver" id="projects">
       <div className="max-w-[1400px] mx-auto px-6">
         
         {/* Header */}

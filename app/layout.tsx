@@ -1,4 +1,4 @@
-import '@/Styles/globals.css';
+import './globals.css';
 export const metadata = {
   title: "Yogita Singla | Full Stack Engineer",
   description: "Interactive developer portfolio",
