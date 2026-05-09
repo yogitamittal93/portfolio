@@ -59,38 +59,38 @@ export default function Hero() {
         </div>
 
         {/* 🔥 IMAGE CONTENT (Right - Span 5) */}
-        <div className="md:col-span-5 relative">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, delay: 0.2 }}
-            className="relative"
-          >
-            {/* The Border Frame Effect */}
-            <div className="absolute -inset-4 border border-neutral-200 rounded-sm translate-x-4 translate-y-4 -z-10"></div>
-            
-            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-sm bg-neutral-100 grayscale hover:grayscale-0 transition-all duration-1000 shadow-2xl shadow-neutral-200">
-              <Image
-                src="/yogita3.webp"
-                alt="Yogita Singla"
-                fill
-                priority
-                sizes="(max-width: 768px) 100vw, 50vw"
-                className="object-cover transition-transform duration-[2s] hover:scale-110"
-              />
-            </div>
+       <div className="md:col-span-5 relative">
+        {/* Removing the initial opacity: 0 here to fix LCP */}
+        <div className="relative">
+          {/* The Border Frame Effect */}
+          <div className="absolute -inset-4 border border-neutral-200 rounded-sm translate-x-4 translate-y-4 -z-10"></div>
+          
+          <div className="relative aspect-[4/5] w-full overflow-hidden rounded-sm bg-neutral-100 grayscale hover:grayscale-0 transition-all duration-1000 shadow-2xl shadow-neutral-200">
+            <Image
+              src="/yogita3.webp"
+              alt="Yogita Singla"
+              fill
+              priority
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover transition-transform duration-[2s] hover:scale-110"
+            />
+          </div>
 
-            {/* Float Badge (Optional) */}
-            <motion.div 
-              animate={{ y: [0, -10, 0] }}
-              transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-              className="absolute -bottom-6 -left-6 bg-white p-6 shadow-xl rounded-sm hidden lg:block"
-            >
-              <p className="text-[10px] uppercase tracking-widest text-neutral-400 mb-1">Based in</p>
-              <p className="text-neutral-500 font-medium">India / Remote</p>
-            </motion.div>
+          {/* Float Badge - Keep animation here as it's not the LCP element */}
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: [0, -10, 0] }}
+            transition={{ 
+              opacity: { delay: 0.5 },
+              y: { repeat: Infinity, duration: 4, ease: "easeInOut" } 
+            }}
+            className="absolute -bottom-6 -left-6 bg-white p-6 shadow-xl rounded-sm hidden lg:block"
+          >
+            <p className="text-[10px] uppercase tracking-widest text-neutral-400 mb-1">Based in</p>
+            <p className="text-neutral-500 font-medium">India / Remote</p>
           </motion.div>
         </div>
+      </div>
 
       </div>
 

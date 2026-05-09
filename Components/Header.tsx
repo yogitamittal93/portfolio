@@ -25,7 +25,7 @@ export default function Header() {
         {/* Logo with "Smart Stroke" */}
         <div className="pointer-events-auto">
           <a href="#hero" className="group">
-            <h1 
+            <h1 aria-label="Yogita Singla"
               className="text-sm font-bold tracking-[0.2em] px-3 uppercase text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
               style={{ WebkitTextStroke: "0.5px rgba(0,0,0,0.1)" }}
             >

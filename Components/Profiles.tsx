@@ -5,8 +5,8 @@ export default function Profiles() {
       <h2 className="text-3xl font-bold mb-10">Coding Profiles</h2>
 
       <div className="flex gap-6">
-        <a className="bg-slate-900 p-4 rounded">GitHub</a>
-        <a className="bg-slate-900 p-4 rounded">HackerRank ⭐⭐⭐⭐⭐</a>
+        <a className="bg-slate-900 p-4 rounded" aria-label="github">GitHub</a>
+        <a className="bg-slate-900 p-4 rounded" aria-label="hackerrank">HackerRank ⭐⭐⭐⭐⭐</a>
       </div>
     </section>
   );
