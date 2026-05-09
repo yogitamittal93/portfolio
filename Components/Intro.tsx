@@ -66,12 +66,14 @@ export default function OvalVideoFloatingPlayer() {
               <div className="absolute inset-0 z-20 flex justify-between px-6 pt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <button
                   onClick={handleClose}
+                   aria-label="Close video"
                   className="bg-black/60 backdrop-blur-sm text-white p-2 rounded-full transition-all border border-white/10"
                 >
                   <X size={14} />
                 </button>
                 <button
                   onClick={() => setMuted(!muted)}
+                    aria-label={muted ? "Unmute video" : "Mute video"}
                   className="bg-black/60 backdrop-blur-sm text-white p-2 rounded-full transition-all border border-white/10"
                 >
                   {muted ? <VolumeX size={14} /> : <Volume2 size={14} />}

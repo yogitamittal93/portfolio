@@ -71,10 +71,11 @@ export default function Hero() {
             
             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-sm bg-neutral-100 grayscale hover:grayscale-0 transition-all duration-1000 shadow-2xl shadow-neutral-200">
               <Image
-                src="/yogita3.png"
+                src="/yogita3.webp"
                 alt="Yogita Singla"
                 fill
                 priority
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover transition-transform duration-[2s] hover:scale-110"
               />
             </div>
